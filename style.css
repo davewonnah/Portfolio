@@ -6,23 +6,20 @@
 
 body {
   justify-content: center;
-  background-image: url(./images/pexels-josh-sorenson-1714205.jpg);
+  background-image: url(./images/286628593_1024960835079609_5752186755500087283_n.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  gap: 5px;
-}
-
-h1 {
-  font-size: 20rem;
+  font-size: larger;
+  /* filter: blur(5px); */
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 1rem;
   opacity: 80%;
   background-color: #1a5482;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -92,13 +89,22 @@ ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #fff;
+  /* color: #fff; */
+  margin-top: 110px;
   text-align: center;
-  max-width: 30rem;
+  font-size: larger;
+  /* background-color: aqua; */
+  /* max-width: 30rem; */
   justify-content: space-between;
   gap: 12px;
-  padding: 4rem;
+  padding: 1.4rem;
 }
+
+.info-container p {
+  font-size: 18px;
+  color: #0f0e0e;
+}
+
 .info-header {
   justify-content: center;
   padding: 2rem;
