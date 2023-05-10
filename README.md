@@ -1,2 +1,0 @@
-# Portfolio
-HTML CSS and JAVASCRIPT PROJECT

@@ -9,7 +9,13 @@ body {
   background-image: url(./images/pexels-josh-sorenson-1714205.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   gap: 5px;
+}
+
+h1 {
+  font-size: 20rem;
 }
 
 header {
