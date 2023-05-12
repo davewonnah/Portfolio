@@ -1,125 +1,128 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  justify-content: center;
-  background-image: url(./images/286628593_1024960835079609_5752186755500087283_n.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  font-size: larger;
-  /* filter: blur(5px); */
+  font: sans-serif;
 }
 
 header {
+  position: relative;
+  width: 100%;
+}
+
+nav {
   display: flex;
-  justify-content: space-between;
+  height: 4rem;
+  margin: auto;
+  padding: 20px 0;
   align-items: center;
-  padding: 1rem;
-  opacity: 80%;
-  background-color: #1a5482;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  /* position: relative; */
-}
-
-i {
-  font-size: 2rem;
-  cursor: pointer;
-}
-
-i :hover.ul {
-  display: block;
-}
-
-ul {
-  display: block;
-  background-color: #031c31;
   justify-content: space-between;
-  opacity: 80%;
-  padding: 20px 25px;
+}
+
+nav img {
+  width: 280px;
+  height: 280px;
+}
+
+nav ul li {
+  display: inline-block;
   list-style: none;
-  z-index: 999;
-  display: none;
+  margin: 10px 20px;
 }
-ul li {
-  display: block;
-  position: relative;
-}
-ul li a {
-  display: block ruby;
+
+nav ul li a {
   text-decoration: none;
-  color: #fff;
-  position: relative;
+  color: #000;
+  font-weight: bold;
 }
 
-.icon-container {
-  position: relative; /* Make the parent container of the icon and drop-down menu relative */
-}
-
-.drop-down {
-  display: none; /* Hide the drop-down menu by default */
-  position: absolute; /* Position the menu relative to its nearest positioned ancestor */
-  top: 100%; /* Position the menu below the icon */
-  right: 0; /* Align the menu to the right edge of the container */
-  z-index: 1; /* Ensure the menu appears above other content */
-}
-
-.icon-container i {
-  cursor: pointer; /* Change the cursor to a pointer on hover */
-}
-
-.icon-container:hover .drop-down {
-  display: block; /* Show the drop-down menu when the icon container is hovered */
-}
-
-.icon-container:focus-within .drop-down {
-  display: block; /* Show the drop-down menu when the icon container or its children have focus */
-}
-
-.logo-container img {
-  width: 100px;
-  height: 60px;
+nav ul li a:hover {
+  color: orangered;
 }
 
 .info-container {
+  /* background-color: antiquewhite; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* color: #fff; */
-  margin-top: 110px;
-  text-align: center;
-  font-size: larger;
-  /* background-color: aqua; */
-  /* max-width: 30rem; */
   justify-content: space-between;
-  gap: 12px;
-  padding: 1.4rem;
-}
-
-.info-container p {
-  font-size: 18px;
-  color: #0f0e0e;
-}
-
-.info-header {
-  justify-content: center;
   padding: 2rem;
-  color: #0f0e0e;
-}
-.info-header img {
-  width: 180px;
-  height: 180px;
-  border-radius: 5px;
-  /* border: 2px solid #1a5482; */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 3.3);
 }
 
-.info-par {
-  /* background-color: crimson; */
+.info {
+  justify-content: center;
+}
+
+.info h1 {
+  margin-top: 10rem;
+  font-size: 50px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.menu {
+  /* background-color: aqua; */
+  display: none;
   padding: 0.5rem;
+  margin-right: 30px;
+}
+
+.menu img {
+  width: 30px;
+  cursor: pointer;
+  height: 30px;
+}
+
+span {
+  color: orangered;
+}
+
+info p {
+  color: #555;
+  line-height: 22px;
+}
+
+.info a {
+  background-color: #212121;
+  text-decoration: none;
+  padding: 10px 18px;
+  font-weight: bold;
   color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+.images-container {
+  background-color: aquamarine;
+  padding: 10rem 14rem;
+  background-image: url(./images/286628593_1024960835079609_5752186755500087283_n.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: inherit;
+  border-radius: 4px;
+  background-position: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 680px) {
+  nav ul li {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .info-container {
+    flex-direction: column-reverse;
+  }
+  .images-container {
+    padding: 8rem;
+  }
+  .info h1 {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .info p {
+    font-size: 13px;
+  }
+  .info a {
+    font-weight: inherit;
+  }
 }
