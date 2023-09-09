@@ -90,14 +90,14 @@ nav ul li a:hover {
 }
 
 .dropDown-menu.open{
-  height: 120px;
+  height: 420px;
 }
 
 .dropDown-menu li{
   padding: 0.7rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   
 }
 
@@ -138,7 +138,7 @@ span {
   background-position: center;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 680px) {
+@media only screen and (min-width: 320px) and (max-width: 380px) {
   nav ul {
     display: none;
   }
@@ -147,6 +147,8 @@ span {
   }
   .dropDown-menu{
     display: block;
+    left: 2rem;
+    width: unset;
   }
   .info-container {
     flex-direction: column-reverse;
@@ -169,3 +171,383 @@ span {
     font-weight: inherit;
   }
 }
+
+
+@media only screen and (min-width: 381px) and (max-width: 400px) {
+  nav ul {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .dropDown-menu{
+    display: block;
+    left: 2rem;
+    width: unset;
+  }
+  .info-container {
+    flex-direction: column-reverse;
+  }
+  .images-container {
+    padding: 8.6rem;
+  }
+  .info{
+    padding: 0;
+  }
+  .info h1 {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .info p {
+    font-size: 15px;
+  }
+  .info a {
+    font-weight: inherit;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 430px) {
+  nav ul {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .dropDown-menu{
+    display: block;
+    left: 2rem;
+    width: unset;
+  }
+  .info-container {
+    flex-direction: column-reverse;
+  }
+  .images-container {
+    padding: 9rem;
+  }
+  .info{
+    padding: 0;
+  }
+  .info h1 {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .info p {
+    font-size: 15px;
+  }
+  .info a {
+    font-weight: inherit;
+  }
+}
+
+@media only screen and (min-width: 431px) and (max-width: 486px) {
+  nav ul {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .dropDown-menu{
+    display: block;
+    left: 2rem;
+    width: unset;
+  }
+  .info-container {
+    flex-direction: column-reverse;
+  }
+  .images-container {
+    padding: 11rem;
+  }
+  .info{
+    padding: 0;
+  }
+  .info h1 {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .info p {
+    font-size: 15px;
+  }
+  .info a {
+    font-weight: inherit;
+  }
+}
+
+@media only screen and (min-width: 487px) and (max-width: 520px) {
+  nav ul {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .dropDown-menu{
+    display: block;
+    left: 2rem;
+    width: unset;
+  }
+  .info-container {
+    flex-direction: column-reverse;
+  }
+  .images-container {
+    padding: 11.6rem;
+  }
+  .info{
+    padding: 0;
+  }
+  .info h1 {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .info p {
+    font-size: 15px;
+  }
+  .info a {
+    font-weight: inherit;
+  }
+}
+
+
+@media only screen and (min-width: 521px) and (max-width: 600px) {
+  nav ul {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .dropDown-menu{
+    display: block;
+    left: 2rem;
+    width: unset;
+  }
+  .info-container {
+    flex-direction: column-reverse;
+  }
+  .images-container {
+    padding: 13.9rem;
+  }
+  .info{
+    padding: 0;
+  }
+  .info h1 {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .info p {
+    font-size: 15px;
+  }
+  .info a {
+    font-weight: inherit;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 650px) {
+  nav ul {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .dropDown-menu{
+    display: block;
+    left: 2rem;
+    width: unset;
+  }
+  .info-container {
+    flex-direction: column-reverse;
+  }
+  .images-container {
+    padding: 15rem;
+  }
+  .info{
+    padding: 0;
+  }
+  .info h1 {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .info p {
+    font-size: 15px;
+  }
+  .info a {
+    font-weight: inherit;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 700px) {
+  nav ul {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .dropDown-menu{
+    display: block;
+    left: 2rem;
+    width: unset;
+  }
+  .info-container {
+    flex-direction: column-reverse;
+  }
+  .images-container {
+    padding: 17rem;
+  }
+  .info{
+    padding: 0;
+  }
+  .info h1 {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .info p {
+    font-size: 15px;
+  }
+  .info a {
+    font-weight: inherit;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 700px) {
+  nav ul {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .dropDown-menu{
+    display: block;
+    left: 2rem;
+    width: unset;
+  }
+  .info-container {
+    flex-direction: column-reverse;
+  }
+  .images-container {
+    padding: 17rem;
+  }
+  .info{
+    padding: 0;
+  }
+  .info h1 {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .info p {
+    font-size: 15px;
+  }
+  .info a {
+    font-weight: inherit;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 800px) {
+  nav ul {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .dropDown-menu{
+    display: block;
+    left: 2rem;
+    width: unset;
+  }
+  .info-container {
+    flex-direction: column-reverse;
+  }
+  .images-container {
+    padding: 19.5rem;
+  }
+  .info{
+    padding: 0;
+  }
+  .info h1 {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .info p {
+    font-size: 15px;
+  }
+  .info a {
+    font-weight: inherit;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 920px) {
+  nav ul {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .dropDown-menu{
+    display: block;
+    left: 2rem;
+    width: unset;
+  }
+  .info-container {
+    flex-direction: column-reverse;
+  }
+  .images-container {
+    padding: 22.5rem;
+  }
+  .info{
+    padding: 0;
+  }
+  .info h1 {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .info p {
+    font-size: 15px;
+  }
+  .info a {
+    font-weight: inherit;
+  }
+}
+
+
+@media only screen and (min-width: 921px) and (max-width: 1100px) {
+  nav ul {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .dropDown-menu{
+    display: block;
+    /* left: 2rem; */
+    width: unset;
+  }
+  .info-container {
+    flex-direction: column-reverse;
+  }
+  .images-container {
+    padding: 26.5rem;
+  }
+  .info{
+    padding: 0;
+  }
+  .info h1 {
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .info p {
+    font-size: 15px;
+  }
+  .info a {
+    font-weight: inherit;
+  }
+}
+
+
+
